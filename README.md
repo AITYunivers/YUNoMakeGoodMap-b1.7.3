@@ -1,28 +1,21 @@
-# Fabric Example Mod with StationAPI and BIN Mappings for beta 1.7.3 server + client
+# YUNoMakeGoodMap (b1.7.3)
 
-## Setup
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/aY2WFGPBBB)
 
-Run the `_setup/setupMod` task and give it the inputs it needs. **This is a required step.**
+Ever played a SkyBlock map, and had some cheeky person come along and reach the edge of the void and dry land?
 
-[See the StationAPI wiki.](https://github.com/ModificationStation/StationAPI/wiki)
+Well this mod fixes that, by generating the world itself completely void.
 
-## Common Issues
+You can select your starting structure and off you go.
 
-**My project isn't building after updating babric loom/stationapi!**  
-Run a gradle task with `--refresh-dependencies` as an argument, and this should be fixed. If not, try deleting your project's `.gradle` folder, and try again.
+(Backported to Beta 1.7.3 by Yunivers)
 
-**I get "Invalid source release: 17" as an error!**  
-Use Java 17. Open up `File > Project Structure` and change your SDK to Java 17.  
-If you still get the issue, you may need to go into `File > Settings > Build, Execution, Deployment > Build Tools > Gradle` and change the Java that Gradle uses too.
+## Dependencies
+This mod requires the following mods
 
-**How do I stop server.properties from constantly changing?**  
-Remove the last line in the `gitignore` file.
-
-**My client hangs on a blank screen on trying to my test server!**  
-Open your `server.properties` and set `online-mode` to `false`.
-
-[Here for more issues.](https://github.com/calmilamsy/BIN-fabric-example-mod#common-issues)
+- [Babric](https://github.com/babric/prism-instance)
 
 ## License
+The Tinkers' Construct code referenced is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Any original code from this project is licensed under the [MIT License](https://tldrlegal.com/license/mit-license)
